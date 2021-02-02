@@ -22,7 +22,7 @@ public class DynamoDbConfiguration {
                 new AwsClientBuilder.EndpointConfiguration("dynamodb.ap-south-1.amazonaws.com","ap-south-1")).
                 withCredentials(
                         new AWSStaticCredentialsProvider(
-                                new BasicAWSCredentials("AKIAW74LQLKZ6KQOGFH3","wtwmH18scbCPAJutustI9YVZM3Y1/idjd9MANrAd")
+                                new BasicAWSCredentials()
 
                         )
                 ).build();
